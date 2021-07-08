@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "FinalFantasy.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FinalFantasy.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalFantasy.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalFantasy.Core/1.0.0": {
+      "type": "project",
+      "path": "../FinalFantasy.Core/FinalFantasy.Core.csproj",
+      "msbuildProject": "../FinalFantasy.Core/FinalFantasy.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "FinalFantasy.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\giulia.tuttobene\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryMock\\FinalFantasy.RepositoryMock.csproj",
+      "projectName": "FinalFantasy.RepositoryMock",
+      "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryMock\\FinalFantasy.RepositoryMock.csproj",
+      "packagesPath": "C:\\Users\\giulia.tuttobene\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryMock\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\giulia.tuttobene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.Core\\FinalFantasy.Core.csproj": {
+              "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.Core\\FinalFantasy.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
