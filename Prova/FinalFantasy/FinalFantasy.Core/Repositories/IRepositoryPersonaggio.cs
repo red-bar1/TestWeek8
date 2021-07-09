@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinalFantasy.Core.Repositories
 {
-    interface IRepositoryPersonaggio : IRepository<Personaggio>
+    public interface IRepositoryPersonaggio : IRepository<Personaggio>
     {
 
     }

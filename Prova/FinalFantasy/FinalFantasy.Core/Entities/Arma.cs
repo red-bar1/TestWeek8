@@ -11,6 +11,7 @@ namespace FinalFantasy.Core.Entities
         public string Nome { get; set; }
         public int Danno { get; set; }
 
-        public ICollection<Personaggio> Personaggi { get; set; } = new List<Personaggio>();
+        public ICollection<Eroe> Eroi { get; set; } = new List<Eroe>();
+        public ICollection<Mostro> Mostri { get; set; } = new List<Mostro>();
     }
 }

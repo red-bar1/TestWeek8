@@ -7,20 +7,23 @@ namespace FinalFantasy.RepositoryMock
 {
     public class RepositoryGiocatoreMock : IRepositoryGiocatore
     {
+
         private ICollection<Giocatore> Giocatori = new List<Giocatore>()
         {
             new Giocatore{Nickname = "Mario88"},
-            new Giocatore{Nickname = "Giulia", Eroi = new List<Eroe>{ 
-                new Eroe { 
+            new Giocatore{Nickname = "Giulia", Eroi = new List<Eroe>{
+                new Eroe {
                     Nome="RedBaron",
                     Livello=1,
                     CategoriaEroe = CategoriaEroe.Wizard,
-                    }, 
+                    Arma = new Arma(){Nome= "Bastone Magico", Danno= 10}
+                    },
                 new Eroe
                 {
                     Nome="Altro Eroe",
                     Livello =2,
                     CategoriaEroe = CategoriaEroe.Soldier,
+                    Arma = new Arma(){Nome="Spada", Danno=10}
                 }
                 }
             }
@@ -70,9 +73,20 @@ namespace FinalFantasy.RepositoryMock
             }
         }
 
+        //ho cambiato il metodo in corsa nelle repoEF
         public ICollection<Eroe> MostraEroi(Giocatore giocatore)
         {
+            foreach (Eroe item in giocatore.Eroi)
+            {
+                Console.WriteLine(item);
+            }
             return giocatore.Eroi;
+        }
+
+        //Metodo Aggiornato 
+        public ICollection<Giocatore> MostraEroi()
+        {
+            throw new NotImplementedException();
         }
     }
 }

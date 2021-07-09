@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinalFantasy.Core.Repositories
 {
-    interface IRepositoryArma : IRepository<Arma>
+    public interface IRepositoryArma : IRepository<Arma>
     {
     }
 }

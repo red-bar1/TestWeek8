@@ -9,7 +9,7 @@ namespace FinalFantasy.Core.Repositories
 {
     public interface IRepositoryGiocatore : IRepository<Giocatore>
     {
-        public ICollection<Eroe> MostraEroi(Giocatore giocatore);
+        public ICollection<Giocatore> MostraEroi();
         
     }
 }

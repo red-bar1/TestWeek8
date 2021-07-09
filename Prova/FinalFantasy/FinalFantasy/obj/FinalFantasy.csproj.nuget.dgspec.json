@@ -58,6 +58,86 @@
         }
       }
     },
+    "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryEF\\FinalFantasy.RepositoryEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryEF\\FinalFantasy.RepositoryEF.csproj",
+        "projectName": "FinalFantasy.RepositoryEF",
+        "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryEF\\FinalFantasy.RepositoryEF.csproj",
+        "packagesPath": "C:\\Users\\giulia.tuttobene\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryEF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\giulia.tuttobene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.Core\\FinalFantasy.Core.csproj": {
+                "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.Core\\FinalFantasy.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryMock\\FinalFantasy.RepositoryMock.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -140,6 +220,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryEF\\FinalFantasy.RepositoryEF.csproj": {
+                "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryEF\\FinalFantasy.RepositoryEF.csproj"
+              },
               "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryMock\\FinalFantasy.RepositoryMock.csproj": {
                 "projectPath": "C:\\Users\\giulia.tuttobene\\Desktop\\PreAcademy C - Week8\\Prova\\FinalFantasy\\FinalFantasy.RepositoryMock\\FinalFantasy.RepositoryMock.csproj"
               }

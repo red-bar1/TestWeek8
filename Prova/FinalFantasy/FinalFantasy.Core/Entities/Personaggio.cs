@@ -9,7 +9,7 @@ namespace FinalFantasy.Core.Entities
     public abstract class Personaggio
     {
         public string Nome { get; set; }
-        public int Livello { get; set; }
+        public int Livello { get; set; } = 1;
         public int PuntiVita
         { 
             get
